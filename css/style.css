@@ -42,20 +42,26 @@ div{
     background:#FF0000;
     text-align: right;
     margin-left: 50px;
+    border:none;
     border-left: 10px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
 }
 .blue{
     background: #0000FF;
     text-align: left;
     margin-right: 50px;
+    border:none;
     border-right: 10px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
 }
 
 .yellow{
     background: #FFFF00;
     text-align: right;
     margin-left: 50px;
+    border:none;
     border-left: 10px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
 }
 
 .yellow h2{
@@ -68,21 +74,26 @@ div{
 }
 
 .green{
-    background: #00EB00;
+    background: #008500;
     text-align: left;
     margin-right: 50px;
+    border:none;
     border-right: 10px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
 }
 
 span{
     text-decoration: underline;
     text-transform: uppercase;
-    text-shadow: 0px 0px;
+    text-shadow: none;
 }
 
-footer{
+footer p{
     background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
     text-align: center;
     font-size: 20px;
+}
+
+footer{
     padding: 10px 10px 10px 0px;
 }
